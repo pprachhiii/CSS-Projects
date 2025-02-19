@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2 class="name">Prachi Yadav</h2>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+          <article class="description">
+            <h1 class="profession">Learning Web Development</h1>
+            <p>Eager to get intersnhip and enhance and use my skills i real world projects</p>
+          </article>
+            <img src="profile.jpg" alt="Prachi's Photo" class="profilephoto">
+        </section>
+
+        <hr>
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <p><strong>University of Lucknow</strong></p>
+                <p>Bachelor of Computer Applications (2023-2026)</p>
+                <p>SGPA: 8.25</p>
+            </article>
+            <article>
+                <p><strong>Wisdom Way Progressive Inter College</strong></p>
+                <p>12th Grade (2021-2022) - Percentage: 75%</p>
+                <p>10th Grade (2019-2020) - Percentage: 86%</p>
+            </article>
+        </section>
+        <hr>
+        <section id="skills">
+            <h2>Skills</h2>
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, React.js, Bootstrap</p>
+            <progress value="70" max="100"></progress>
+        
+            <h3>Backend</h3>
+            <p>MySQL</p>
+            <progress value="60" max="100"></progress>
+        
+            <h3>Graphic Designing</h3>
+            <p>Canva</p>
+            <progress value="65" max="100"></progress>
+        
+            <h3>Programming</h3>
+            <p>C (Basic), C++ (Intermediate), Java (Basic), Python (Intermediate)</p>
+            <progress value="50" max="100"></progress>
+        
+            <h3>Tools</h3>
+            <p>GitHub, VS Code</p>
+            <progress value="80" max="100"></progress>
+        
+            <h3>Languages</h3>
+            <p>Hindi (Fluent), English (Fluent), Korean (Basic), Spanish (Basic)</p>
+            <progress value="90" max="100"></progress>        
+        </section>
+        <hr>
+
+        <section class="hobbies">
+            <h3>Hobby</h3>
+            <ul class="hobby">
+                <li>Drawing & Doddling</li>
+                <li>Reading Family Sagas</li>
+                <li>Planting & Gardening</li>
+                <li>Decorating home</li>
+                <li>Studying Physics</li>
+            </ul>
+        </section>
+        <hr>
+
+        <section class="contact">
+            <h3>Contact Me</h3>
+            <ul class="contactinfo">
+                <li>Phone: <a href="tel:+919369350497">+91 93693 50497</a></li>
+                <li>Email: <a href="mailto:prachiiyadav2409@gmail.com">prachiiyadav2409@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/prachiiyadav240" target="_blank">prachiiyadav240</a></li>
+                <li>GitHub: <a href="https://github.com/pprachhiii" target="_blank">pprachhiii</a></li>            </ul>
+        </section>
+    </main>
+    <form action="https://www.google.com/search">
+        <h2>Registration form</h2>
+        <input type="text" id="firstname" name="firstname" placeholder="firstname">
+        <input type="text" id="lastname" name="lastname" placeholder="lastname">
+        <br>
+        <label for="gender">Please select your gender </label>
+        <select name="gender" id="gender">
+            <option value="male" selected> Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br>
+       <label for="terms">Do you agree to all terms and conditions </label>
+       <input type="checkbox" nmae="checkbox" id="terms">Yes, I agree<br>
+        <button>Register</button>
+    </form>
+</body>
+</html>
